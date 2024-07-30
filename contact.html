@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Contact Form</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <!-- NAVBAR -->
+            <img
+                src="images/ca-logo.png"
+                alt="The letters C and A written in a cursive style to depict a logo"
+                class="nav-logo"
+            />
+            <!-- MOBILE NAV -->
+            <nav class="mobile-nav display-none">
+                <button>
+                    <img
+                        src="images/hamburger.svg"
+                        alt="Three horizontal lines, positioned one above the other."
+                        class="hamburger-icon"
+                    />
+                </button>
+            </nav>
+            <!-- DESKTOP NAV -->
+            <nav class="desktop-nav">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="gallery.html">Cat Gallery</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <h2 class="contact-page-heading">Contact Me</h2>
+        <section class="contact-form">
+            <form>
+                <input type="text" id="name" placeholder="Name" />
+                <input type="email" id="email" placeholder="Email" />
+                <textarea
+                    name="message"
+                    id="message"
+                    rows="10"
+                    placeholder="Your message"
+                ></textarea>
+                <input type="submit" value="Submit" class="contact-form-btn" />
+            </form>
+        </section>
+        <footer>
+            <a
+                href="https://www.linkedin.com/in/caitlin-achemedei-4616762b3/"
+                title="Caitlin Achemedei on Linkedin"
+            >
+                <img
+                    src="./images/linkedin.png"
+                    alt="The linkedin logo, a blue circle with the letters 'in' in white in the center"
+                    class="socials-icon"
+                />
+            </a>
+            <a href="#">
+                <img
+                    width="100px"
+                    class="socials-icon"
+                    src="./images/email.png"
+                    alt="A colour depiction of the uppercase letter M to signify email"
+                />
+            </a>
+            <a href="https://github.com/cachemedei">
+                <img
+                    class="socials-icon"
+                    src="./images/github.svg"
+                    alt="The Github logo: a black circle with the silhouette of a white cat, with one tentacle arm"
+                />
+            </a>
+        </footer>
+    </body>
+</html>
