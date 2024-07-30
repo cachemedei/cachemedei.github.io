@@ -5,15 +5,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Cat Gallery</title>
         <link rel="stylesheet" href="style.css" />
+        <script src="script.js" defer></script>
     </head>
     <body>
         <header>
             <!-- NAVBAR -->
-            <img
-                src="images/ca-logo.png"
-                alt="The letters C and A written in a cursive style to depict a logo"
-                class="nav-logo"
-            />
+            <a href="index.html">
+                <img
+                    src="images/ca-logo.png"
+                    alt="The letters C and A written in a cursive style to depict a logo"
+                    class="nav-logo"
+                />
+            </a>
+
             <!-- MOBILE NAV -->
             <nav class="mobile-nav display-none">
                 <button>
@@ -21,8 +25,20 @@
                         src="images/hamburger.svg"
                         alt="Three horizontal lines, positioned one above the other."
                         class="hamburger-icon"
+                        id="hamburger-icon"
                     />
                 </button>
+                <ul class="mobile-nav-links" id="mobile-nav-links">
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="gallery.html">Cat Gallery</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
             </nav>
             <!-- DESKTOP NAV -->
             <nav class="desktop-nav">
