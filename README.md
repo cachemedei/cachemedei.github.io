@@ -1,6 +1,6 @@
-#  your_name_here - Portfolio Task
+#  Caitlin Achemedei - Portfolio Task
 ​
-[My portfolio site](link_to_your_site)
+Link to my portfolio site: https://cachemedei.github.io/
 ​
 ## Project Requirements
 
@@ -11,6 +11,22 @@
 - [ ] Functional Contact Form
 - [ ] "Projects" section
 - [ ] Links to external sites, e.g. GitHub and LinkedIn.
+
+The portfolio website contains 3 pages
+Homepage
+- A brief bio introduction about myself and a profile picture, laid out as a hero banner section
+- 3 article cards arranged in a column, with card 1 and 3 aligned to the left and card 2 aligned to the right, for mobile display. On a desktop the cards are arranged in a row. On hover the background color of the card darkens to draw attention to the card in focus
+    -  Article 1 further describes myself and what I do 
+    - Article 2 discusses my pet cats and links to another page containing a small galley of photos of them
+    - Article 3 contains a link to my GitHub profile to check out my other work and projects
+- A form to contact me
+- Footer bar containing icon logos for GitHub, LinkedIn and Instagram that are linked to the corresponding sites
+
+Gallery Page
+** will contain a horizontal scrolling gallery of pictures of my cats
+
+Contact Me Page
+** will contain a form for contacting me
 ​
 ### Technical
  Add a short paragraph describing the features below. What strategies or design decisions did you work from? 
