@@ -6,41 +6,26 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Caitlin Achemedei</title>
         <link rel="stylesheet" href="style.css" />
-        <script src="script.js" defer></script>
     </head>
     <body>
-        <header>
+        <header class="header" role="banner">
             <!-- NAVBAR -->
             <img
                 src="images/ca-logo.png"
                 alt="The letters C and A written in a cursive style to depict a logo"
                 class="nav-logo"
+                aria-label="Home"
             />
             <!-- MOBILE NAV -->
-            <nav class="mobile-nav display-none">
-                <button>
-                    <img
-                        src="images/hamburger.svg"
-                        alt="Three horizontal lines, positioned one above the other."
-                        class="hamburger-icon"
-                        id="hamburger-icon"
-                    />
-                </button>
-                <ul class="mobile-nav-links" id="mobile-nav-links">
-                    <li>
-                        <a href="#about">About</a>
-                    </li>
-                    <li>
-                        <a href="gallery.html">Cat Gallery</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-            <!-- DESKTOP NAV -->
-            <nav class="desktop-nav">
-                <ul>
+            <!-- Hamburger Icon -->
+            <input class="side-menu" type="checkbox" id="side-menu" />
+            <label class="hamb" for="side-menu" aria-label="Menu">
+                <span class="hamb-line"></span>
+            </label>
+            <!-- Menu -->
+            <nav class="nav" role="navigation" aria-label="Main">
+                <!-- MENU -->
+                <ul class="menu">
                     <li>
                         <a href="#about">About</a>
                     </li>
@@ -53,6 +38,7 @@
                 </ul>
             </nav>
         </header>
+
         <!-- HERO -->
         <section class="hero">
             <div class="text-container">
@@ -98,7 +84,8 @@
                     If you like cats, we'll get along. I have two beautiful
                     girls, May and Nina, and they are my biggest cheerleaders on
                     my coding journey. If you want to see some cute kitties (and
-                    who doesn't ?!) <a href="gallery.html">click here</a>
+                    who doesn't ?!)
+                    <a href="gallery.html">click here</a>
                 </p>
             </article>
             <article class="card">
@@ -117,17 +104,16 @@
         <section class="contact-form">
             <h2>Let's Connect!</h2>
             <form>
-                <input type="text" id="name" placeholder="Name" />
-                <input type="email" id="email" placeholder="Email" />
-                <textarea
-                    name="message"
-                    id="message"
-                    rows="10"
-                    placeholder="Your message"
-                ></textarea>
+                <label for="name">Name</label>
+                <input type="text" id="name" />
+                <label for="email">Email</label>
+                <input type="email" id="email" />
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="10"></textarea>
                 <input type="submit" value="Submit" class="contact-form-btn" />
             </form>
         </section>
+
         <footer>
             <a
                 href="https://www.linkedin.com/in/caitlin-achemedei-4616762b3/"

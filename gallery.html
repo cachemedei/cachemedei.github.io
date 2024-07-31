@@ -8,43 +8,31 @@
         <script src="script.js" defer></script>
     </head>
     <body>
-        <header>
+        <header class="header">
             <!-- NAVBAR -->
             <a href="index.html">
                 <img
                     src="images/ca-logo.png"
                     alt="The letters C and A written in a cursive style to depict a logo"
                     class="nav-logo"
+                    aria-label="Home"
                 />
             </a>
-
             <!-- MOBILE NAV -->
-            <nav class="mobile-nav display-none">
-                <button>
-                    <img
-                        src="images/hamburger.svg"
-                        alt="Three horizontal lines, positioned one above the other."
-                        class="hamburger-icon"
-                        id="hamburger-icon"
-                    />
-                </button>
-                <ul class="mobile-nav-links" id="mobile-nav-links">
+            <!-- Hamburger Icon -->
+            <input class="side-menu" type="checkbox" id="side-menu" />
+            <label class="hamb" for="side-menu" aria-label="Menu">
+                <span class="hamb-line"></span>
+            </label>
+            <!-- Menu -->
+            <nav class="nav" role="navigation" aria-label="Main">
+                <!-- MENU -->
+                <ul class="menu">
                     <li>
                         <a href="#about">About</a>
                     </li>
                     <li>
                         <a href="gallery.html">Cat Gallery</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-            <!-- DESKTOP NAV -->
-            <nav class="desktop-nav">
-                <ul>
-                    <li>
-                        <a href="index.html">Home</a>
                     </li>
                     <li>
                         <a href="contact.html">Contact</a>

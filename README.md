@@ -36,11 +36,13 @@ Contact Me Page
 - [ ] Implements responsive design principles.
 - [ ] Uses semantic HTML.
 
-### Bonus (optional)
+### Features
  Add a short paragraph describing the features below, if you included any. 
 - [ ] Different styles for active, hover and focus states.
 - [ ] Include JavaScript to add some dynamic elements to your site. (Extra tricky!)
-​
+​- When hovering over any links, buttons and article info cards I added some CSS Styles to lighten or darken the color of the element to bring focus to it
+- Javascript was added for the mobile hamburger icon for showing the navigations link
+
 ### Screenshots
 > Please include the following:
 > - The different pages and features of your website on mobile, tablet and desktop screen sizes (multiple screenshots per page and screen size).
