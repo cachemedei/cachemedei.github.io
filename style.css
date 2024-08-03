@@ -282,7 +282,8 @@ body:has(.side-menu:checked) {
     }
 
     .hero p {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
+        max-width: 450px;
     }
 
     .hero img {
