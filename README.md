@@ -6,11 +6,6 @@ Link to my portfolio site: https://cachemedei.github.io/
 
 ### Content
  Add a short paragraph describing the features below. What aesthetic and technical choices did you make? 
-- [ ] At least one profile picture
-- [ ] Biography (at least 100 words)
-- [ ] Functional Contact Form
-- [ ] "Projects" section
-- [ ] Links to external sites, e.g. GitHub and LinkedIn.
 
 The portfolio website contains 3 pages
 Homepage
@@ -23,25 +18,20 @@ Homepage
 - Footer bar containing icon logos for GitHub, LinkedIn and Instagram that are linked to the corresponding sites
 
 Gallery Page
-** will contain a horizontal scrolling gallery of pictures of my cats
+- Contains a horizontal scrolling gallery of pictures of my cats
 
 Contact Me Page
-** will contain a form for contacting me
+- Contains another version of the contact form
 ​
 ### Technical
  Add a short paragraph describing the features below. What strategies or design decisions did you work from? 
-- [ ] At least 2 web pages.
-- [ ] Version controlled with Git
-- [ ] Deployed on GitHub pages.
-- [ ] Implements responsive design principles.
-- [ ] Uses semantic HTML.
+
+- This portfolio was version controlled with Git, has 3 web pages, has been deployed on GitHub pages and makes use of semantic HTML and responsive design principles
+
 
 ### Features
- Add a short paragraph describing the features below, if you included any. 
-- [ ] Different styles for active, hover and focus states.
-- [ ] Include JavaScript to add some dynamic elements to your site. (Extra tricky!)
+
 ​- When hovering over any links, buttons and article info cards I added some CSS Styles to lighten or darken the color of the element to bring focus to it
-- Javascript was added for the mobile hamburger icon for showing the navigations link
 
 ### Screenshots
 > Please include the following:
@@ -52,3 +42,5 @@ Contact Me Page
 
 ####  image_title_goes_here 
 ![Put a description of your image here](./relative_path_to_file)
+
+
