@@ -248,7 +248,7 @@ body:has(.side-menu:checked) {
 }
 
 .hero p {
-    max-width: 250px;
+    max-width: 280px;
     margin-top: 15px;
     margin-left: 25px;
     font-weight: 400;
