@@ -255,9 +255,6 @@ body:has(.side-menu:checked) {
 }
 
 @media (min-width: 768px) {
-    .homepage-main {
-        display: ;
-    }
     .hero {
         flex-direction: row;
         justify-content: center;
