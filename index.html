@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Caitlin Achemedei</title>
+        <title>Caitlin Achemedei Portfolio Website</title>
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
@@ -22,7 +22,6 @@
             <label class="hamb" for="side-menu" aria-label="Menu">
                 <span class="hamb-line"></span>
             </label>
-            <!-- Menu -->
             <nav class="nav" role="navigation" aria-label="Main">
                 <!-- MENU -->
                 <ul class="menu">
@@ -38,99 +37,113 @@
                 </ul>
             </nav>
         </header>
-
-        <!-- HERO -->
-        <section class="hero">
-            <div class="text-container">
-                <h3>Hi, my name is</h3>
-                <h1>Caitlin Achemedei.</h1>
-                <p>
-                    A passionate chef transitioning into the tech world, I am
-                    currently part of the 2024/25 She Codes Australia Plus
-                    program. With a love for cats, reading books too large to
-                    carry around, and a knack for problem-solving, I am excited
-                    to blend my culinary creativity with my newfound coding
-                    skills. Through the Plus program, I hope to gain proficiency
-                    in coding, expand my technical knowledge, and open new
-                    career opportunities in tech. I aim to innovate and excel in
-                    both fields, leveraging my diverse interests and skills to
-                    make a significant impact on the tech industry.
-                </p>
-            </div>
-            <img
-                src="images/profile-img.jpeg"
-                alt="Headshot of Caitlin"
-                class="profile-img"
-            />
-        </section>
-
-        <!-- INFO CARDS -->
-        <section class="articles-container" id="about">
-            <article class="card">
-                <img
-                    src="./images/chef3.jpg"
-                    alt="A simple line drawing of a spoon, knife, fork, smaller spoon, whisk, spatula, wooden spoon and wooden rolling pin"
-                    class="article-img"
-                />
-                <h4>What do you call a chef that thinks they can code...?</h4>
-                <h2>Caitlin, of course!</h2>
-                <p>
-                    For the last 8 years I have worked as a trained chef and
-                    recently discovered a newfound passion for all things coding
-                    and tech! I still love to cook but made the decision to
-                    forge a new path for myself and begin learning software
-                    development.
-                </p>
-            </article>
-            <article class="card">
-                <img
-                    src="./images/cat3.jpg"
-                    alt="A simple line drawing of six cats in various positions"
-                    class="article-img"
-                />
-                <p>
-                    If you like cats, we'll get along. I have two beautiful
-                    girls, May and Nina, and they are my biggest cheerleaders on
-                    my coding journey. If you want to see some cute kitties (and
-                    who doesn't ?!)
-                    <a href="gallery.html">click here</a>
-                </p>
-            </article>
-            <article class="card">
-                <img
-                    src="images/computer2.png"
-                    alt="A simple line drawing of a laptop"
-                    class="article-img"
-                />
-                <p>
-                    If you would like to check out some of my recent projects,
-                    head on over to my
-                    <a href="https://github.com/cachemedei">GitHub</a>
-                </p>
-            </article>
-        </section>
-        <section class="contact-form">
-            <h2>Let's Connect!</h2>
-            <form action="https://formspree.io/f/mrbzqoyv" method="POST">
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" />
+        <!-- MAIN -->
+        <main class="homepage-main">
+            <!-- HERO -->
+            <section class="hero">
+                <div class="text-container">
+                    <h3>Hi, my name is</h3>
+                    <h1>Caitlin Achemedei.</h1>
+                    <p>
+                        A passionate chef transitioning into the tech world, I
+                        am currently part of the 2024/25 She Codes Australia
+                        Plus program. With a love for cats, reading books too
+                        large to carry around, and a knack for problem-solving,
+                        I am excited to blend my culinary creativity with my
+                        newfound coding skills. Through the Plus program, I hope
+                        to gain proficiency in coding, expand my technical
+                        knowledge, and open new career opportunities in tech. I
+                        aim to innovate and excel in both fields, leveraging my
+                        diverse interests and skills to make a significant
+                        impact on the tech industry.
+                    </p>
                 </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" />
-                </div>
-                <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea name="message" id="message" rows="10"></textarea>
-                </div>
-                <button type="submit" class="contact-form-btn">
-                    Send
-                </button>
-            </form>
-        </section>
+                <img
+                    src="images/profile-img.jpeg"
+                    alt="Headshot of Caitlin"
+                    class="profile-img"
+                />
+            </section>
 
+            <!-- ARTICLES -->
+            <section class="articles-container" id="about">
+                <article class="card">
+                    <img
+                        src="./images/chef3.jpg"
+                        alt="A simple line drawing of a spoon, knife, fork, smaller spoon, whisk, spatula, wooden spoon and wooden rolling pin"
+                        class="article-img"
+                    />
+                    <h4>
+                        What do you call a chef that thinks they can code...?
+                    </h4>
+                    <h2>Caitlin, of course!</h2>
+                    <p>
+                        For the last 8 years I have worked as a trained chef and
+                        recently discovered a passion for all things coding and
+                        tech! I still love to cook but made the decision to
+                        forge a new path for myself and begin learning software
+                        development.
+                    </p>
+                </article>
+                <article class="card">
+                    <img
+                        src="./images/cat3.jpg"
+                        alt="A simple line drawing of six cats in various positions"
+                        class="article-img"
+                    />
+                    <p>
+                        If you like cats, we'll get along. I have two beautiful
+                        girls, May and Nina, and they are my biggest
+                        cheerleaders on my coding journey. If you want to see
+                        some cute kitties (and who doesn't ?!)
+                        <a href="gallery.html">click here</a>
+                    </p>
+                </article>
+                <article class="card">
+                    <img
+                        src="images/computer2.png"
+                        alt="A simple line drawing of a laptop"
+                        class="article-img"
+                    />
+                    <p>
+                        So far I have studied HTML, CSS, JavaScript, React and
+                        TailwindCSS. One of my favourite projects is a simple
+                        app called Pickster. Pickster suggests a random movie
+                        based on a genre chosen by the user and then gives
+                        further information on the movie such as where to buy,
+                        rent or stream it online! If you would like to check out
+                        some of my recent projects, head on over to my
+                        <a href="https://github.com/cachemedei">GitHub</a>
+                    </p>
+                </article>
+            </section>
+        </main>
+        <!-- FOOTER -->
         <footer>
+            <!-- CONTACT -->
+            <section class="contact-form">
+                <h2>Let's Connect!</h2>
+                <form action="https://formspree.io/f/mrbzqoyv" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" />
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea
+                            name="message"
+                            id="message"
+                            rows="10"
+                        ></textarea>
+                    </div>
+                    <button type="submit" class="contact-form-btn">Send</button>
+                </form>
+            </section>
+            <section class="footer-links">
             <a
                 href="https://www.linkedin.com/in/caitlin-achemedei-4616762b3/"
                 title="Caitlin Achemedei on Linkedin"
@@ -141,14 +154,6 @@
                     class="socials-icon"
                 />
             </a>
-            <a href="#">
-                <img
-                    width="100px"
-                    class="socials-icon"
-                    src="./images/email.png"
-                    alt="A colour depiction of the uppercase letter M to signify email"
-                />
-            </a>
             <a href="https://github.com/cachemedei">
                 <img
                     class="socials-icon"
@@ -156,6 +161,7 @@
                     alt="The Github logo: a black circle with the silhouette of a white cat, with one tentacle arm"
                 />
             </a>
+            </section>
         </footer>
     </body>
 </html>

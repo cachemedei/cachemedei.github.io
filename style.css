@@ -62,12 +62,7 @@ a {
     color: inherit;
 }
 
-/* utilities */
-.display-none {
-    display: none;
-}
-
-/* body */
+/* BODY */
 body {
     display: flex;
     flex-direction: column;
@@ -78,7 +73,6 @@ body {
 }
 
 /* HEADER */
-
 .header {
     width: 100%;
     position: sticky;
@@ -239,15 +233,15 @@ body:has(.side-menu:checked) {
 .hero h1 {
     margin-left: 50px;
     font-weight: 800;
-    color: var(--secondary);
+    color: var(--primary);
     letter-spacing: 1px;
     font-size: 2rem;
-    border-bottom: 2px solid var(--primary);
+    border-bottom: 2px solid var(--base-dark);
 }
 
 .hero p {
     max-width: 280px;
-    margin-top: 15px;
+    margin-top: 20px;
     margin-left: 25px;
     font-weight: 400;
     font-size: 1.1rem;
@@ -261,6 +255,9 @@ body:has(.side-menu:checked) {
 }
 
 @media (min-width: 768px) {
+    .homepage-main {
+        display: ;
+    }
     .hero {
         flex-direction: row;
         justify-content: center;
@@ -296,10 +293,10 @@ body:has(.side-menu:checked) {
     font-size: 1rem;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     gap: 20px;
-    width: 100%;
-    padding: 25px 15px;
     color: var(--secondary);
+    padding: 0 20px;
 }
 
 .articles-container > .card:nth-child(1),
@@ -314,37 +311,31 @@ body:has(.side-menu:checked) {
 .articles-container article {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     gap: 15px;
     width: 350px;
+    height: 420px;
     padding: 20px;
     border-radius: 10px;
     border: 2px solid var(--primary);
     transition: all 0.3s ease-in-out;
 }
 
-@media (min-width: 600px) {
-    .articles-container article {
-        width: 400px;
-        margin-left: 40px;
-        margin-right: 40px;
+@media (min-width: 768px) {
+    .articles-container {
+        padding: 0 120px;
     }
 }
 
-@media (min-width: 950px) {
+@media (min-width: 880px) {
     .articles-container {
         flex-direction: row;
-        align-items: center;
-        justify-content: center;
+        gap: 10px;
     }
 
     .articles-container article {
-        height: 450px;
-        width: 380px;
-        justify-content: flex-start;
-        margin-left: 0;
-        margin-right: 0;
+        width: 270px;
+        height: 480px;
     }
 }
 
@@ -368,15 +359,23 @@ body:has(.side-menu:checked) {
     border-radius: 16px;
 }
 
-/* contact form */
+/* FOOTER */
 
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/* contact form */
 .contact-form {
     background-color: var(--neutral-fade);
-    width: 95%;
     border-radius: 16px;
     display: flex;
     flex-direction: column;
-    max-width: 700px;
+    width: 450px;
     margin-top: 20px;
     padding: 20px;
 }
@@ -389,7 +388,6 @@ body:has(.side-menu:checked) {
 .contact-form form {
     font-size: 1.1rem;
     display: flex;
-    height: 600px;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
@@ -398,7 +396,8 @@ body:has(.side-menu:checked) {
 .contact-form .form-group {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 8px;
+    margin: 10px 0;
 }
 
 .contact-form input,
@@ -407,7 +406,7 @@ body:has(.side-menu:checked) {
     padding: 14px 10px;
     border: none;
     background-color: white;
-    width: 400px;
+    width: 380px;
 }
 
 .contact-form form input:focus-visible,
@@ -433,12 +432,11 @@ body:has(.side-menu:checked) {
     color: var(--base-dark);
 }
 
-/* footer */
-footer {
+/* footer links */
+.footer-links {
     display: flex;
-    justify-content: space-around;
-    background-color: var(--neutral);
-    padding: 10px;
+    justify-content: space-between;
+    width: 300px;
 }
 
 .socials-icon {
@@ -450,13 +448,14 @@ footer {
 
 /* CONTACT PAGE */
 .contact-page-heading {
-    margin-top: 20px;
+    text-align: center;
+    margin: 20px 0;
 }
 
 /* GALLERY PAGE */
 .gallery-page-heading {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    text-align: center;
+    margin: 20px 0;
 }
 
 .gallery-images img {
@@ -473,6 +472,14 @@ footer {
     white-space: nowrap;
     gap: 4px;
     padding: 0 10px;
+}
+
+.gallery-links,
+.contact-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
 }
 
 @media (min-width: 768px) {

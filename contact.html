@@ -3,9 +3,8 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Contact Form</title>
+        <title>Contact</title>
         <link rel="stylesheet" href="style.css" />
-        <script src="script.js" defer></script>
     </head>
     <body>
         <header class="header">
@@ -24,7 +23,6 @@
             <label class="hamb" for="side-menu" aria-label="Menu">
                 <span class="hamb-line"></span>
             </label>
-            <!-- Menu -->
             <nav class="nav" role="navigation" aria-label="Main">
                 <!-- MENU -->
                 <ul class="menu">
@@ -40,9 +38,13 @@
                 </ul>
             </nav>
         </header>
-        <h2 class="contact-page-heading">Contact Me</h2>
-        <section class="contact-form">
-            <form action="https://formspree.io/f/mrbzqoyv" method="POST">
+        <main class="contact-main">
+            <h2 class="contact-page-heading">Contact Me</h2>
+            <form
+                action="https://formspree.io/f/mrbzqoyv"
+                method="POST"
+                class="contact-form"
+            >
                 <div class="form-group">
                     <label for="name">Name</label>
                     <input type="text" id="name" />
@@ -55,12 +57,10 @@
                     <label for="message">Message</label>
                     <textarea name="message" id="message" rows="10"></textarea>
                 </div>
-                <button type="submit" class="contact-form-btn">
-                    Send
-                </button>
+                <button type="submit" class="contact-form-btn">Send</button>
             </form>
-        </section>
-        <footer>
+        </main>
+        <footer class="contact-links">
             <a
                 href="https://www.linkedin.com/in/caitlin-achemedei-4616762b3/"
                 title="Caitlin Achemedei on Linkedin"
@@ -69,14 +69,6 @@
                     src="./images/linkedin.png"
                     alt="The linkedin logo, a blue circle with the letters 'in' in white in the center"
                     class="socials-icon"
-                />
-            </a>
-            <a href="#">
-                <img
-                    width="100px"
-                    class="socials-icon"
-                    src="./images/email.png"
-                    alt="A colour depiction of the uppercase letter M to signify email"
                 />
             </a>
             <a href="https://github.com/cachemedei">

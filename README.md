@@ -1,46 +1,60 @@
-#  Caitlin Achemedei - Portfolio Task
+# Caitlin Achemedei - Portfolio Task
+
 ​
 Link to my portfolio site: https://cachemedei.github.io/
 ​
+
 ## Project Requirements
 
+This portfolio website includes:
+
 ### Content
- Add a short paragraph describing the features below. What aesthetic and technical choices did you make? 
-
-The portfolio website contains 3 pages
-Homepage
-- A brief bio introduction about myself and a profile picture, laid out as a hero banner section
-- 3 article cards arranged in a column, with card 1 and 3 aligned to the left and card 2 aligned to the right, for mobile display. On a desktop the cards are arranged in a row. On hover the background color of the card darkens to draw attention to the card in focus
-    -  Article 1 further describes myself and what I do 
-    - Article 2 discusses my pet cats and links to another page containing a small galley of photos of them
-    - Article 3 contains a link to my GitHub profile to check out my other work and projects
-- A form to contact me
-- Footer bar containing icon logos for GitHub, LinkedIn and Instagram that are linked to the corresponding sites
-
-Gallery Page
-- Contains a horizontal scrolling gallery of pictures of my cats
-
-Contact Me Page
-- Contains another version of the contact form
+- A 'header' section with a navigation bar to different pages of the site. 
+- A 'hero' section with a short bio and photo of myself. 
+- An 'articles' section describing myself in further detail and a link to my GitHub profile to look at my projects.
+- A functional contact form created using Formspree
+- A footer with the GitHub and LinkedIn logos that link to their external respective sites.
 ​
 ### Technical
- Add a short paragraph describing the features below. What strategies or design decisions did you work from? 
-
-- This portfolio was version controlled with Git, has 3 web pages, has been deployed on GitHub pages and makes use of semantic HTML and responsive design principles
-
+- 3 web pages: a homepage, contact page and a gallery page.
+- The creation of this portfolio website was consistently version controlled with Git.
+- It has been deployed on GitHub Pages.
+- Implements responsive design principles
+- Uses semantic HTML
+- Has been written to be as accessible as possible with regards to assistive technology
 
 ### Features
 
 ​- When hovering over any links, buttons and article info cards I added some CSS Styles to lighten or darken the color of the element to bring focus to it
 
+
 ### Screenshots
-> Please include the following:
-> - The different pages and features of your website on mobile, tablet and desktop screen sizes (multiple screenshots per page and screen size).
-> - The different features of your site, e.g. if you have hover states, take a screenshot that shows that.  
-> 
-> You can do this by saving the images in a folder in your repo, and including them in your readme document with the following Markdown code: 
 
-####  image_title_goes_here 
-![Put a description of your image here](./relative_path_to_file)
+#### Homepage: Desktop
 
+![Desktop view of homepage top section](./screenshots/homepage1-desktop.png)
 
+#### Homepage: Desktop - articles section showing a hover state
+![Desktop view of homepage mid section](./screenshots/homepage2-desktop.png)
+
+![Desktop view of homepage bottom section](./screenshots/homepage3-desktop.png)
+
+#### Homepage: Mobile
+![Mobile view of homepage top section](./screenshots/homepage1-mobile.png)
+
+#### Homepage: Mobile - mobile nav menu displayed
+![Mobile view of nav menu](./screenshots/homepage-mobilenav.png)
+
+![Mobile view of homepage mid section](./screenshots/homepage2-mobile.png)
+
+![Mobile view of homepage bottom section](./screenshots/homepage3-mobile.png)
+
+#### Contact Page: Mobile + Desktop
+![Desktop view of contact page](./screenshots/contactpage-desktop.png)
+
+![Mobile view of contact page](./screenshots/contactpage-mobile.png)
+
+#### Gallery Page: Mobile + Desktop
+![Desktop view of gallery page](./screenshots/gallerypage-desktop.png)
+
+![Mobile view of gallery page](./screenshots/gallerypage-mobile.png)

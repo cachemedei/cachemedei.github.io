@@ -3,9 +3,8 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Cat Gallery</title>
+        <title>Gallery</title>
         <link rel="stylesheet" href="style.css" />
-        <script src="script.js" defer></script>
     </head>
     <body>
         <header class="header">
@@ -24,7 +23,6 @@
             <label class="hamb" for="side-menu" aria-label="Menu">
                 <span class="hamb-line"></span>
             </label>
-            <!-- Menu -->
             <nav class="nav" role="navigation" aria-label="Main">
                 <!-- MENU -->
                 <ul class="menu">
@@ -40,19 +38,36 @@
                 </ul>
             </nav>
         </header>
-        <h2 class="gallery-page-heading">Cat Gallery</h2>
-        <section class="gallery-images">
-            <img src="images/cat-img/IMG_0516.jpeg" alt="" />
-            <img src="images/cat-img/IMG_7061.jpeg" alt="" />
-            <img
-                src="images/cat-img/30B3BA46-60DE-4581-9E91-D83A06BFBB9D_1_105_c.jpeg"
-                alt=""
-            />
-            <img src="images/cat-img/IMG_2238.jpeg" alt="" />
-            <img src="images/cat-img/IMG_1070.jpeg" alt="" />
-            <img src="images/cat-img/IMG_1396.jpeg" alt="" />
-        </section>
-        <footer>
+        <main class="gallery-main">
+            <h2 class="gallery-page-heading">Cat Gallery</h2>
+            <section class="gallery-images">
+                <img
+                    src="images/cat-img/IMG_0516.jpeg"
+                    alt="Two cats sitting on a window sill, staring outside"
+                />
+                <img
+                    src="images/cat-img/IMG_7061.jpeg"
+                    alt="A close up of a tabby cat on a bed"
+                />
+                <img
+                    src="images/cat-img/30B3BA46-60DE-4581-9E91-D83A06BFBB9D_1_105_c.jpeg"
+                    alt="A close up of a grey burmese cat sitting on a cat tree"
+                />
+                <img
+                    src="images/cat-img/IMG_2238.jpeg"
+                    alt="A small kitten perched on top of a cat scratcher"
+                />
+                <img
+                    src="images/cat-img/IMG_1070.jpeg"
+                    alt="Two cats squished together in one cat bed"
+                />
+                <img
+                    src="images/cat-img/IMG_1396.jpeg"
+                    alt="Two cats cuddling together on a bed"
+                />
+            </section>
+        </main>
+        <footer class="gallery-links">
             <a
                 href="https://www.linkedin.com/in/caitlin-achemedei-4616762b3/"
                 title="Caitlin Achemedei on Linkedin"
@@ -61,14 +76,6 @@
                     src="./images/linkedin.png"
                     alt="The linkedin logo, a blue circle with the letters 'in' in white in the center"
                     class="socials-icon"
-                />
-            </a>
-            <a href="#">
-                <img
-                    width="100px"
-                    class="socials-icon"
-                    src="./images/email.png"
-                    alt="A colour depiction of the uppercase letter M to signify email"
                 />
             </a>
             <a href="https://github.com/cachemedei">
